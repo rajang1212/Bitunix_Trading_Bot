@@ -1,0 +1,6 @@
+v1.8.3 validation
+115 regression tests passed.
+10 standalone Kronos logic tests passed (no model inference).
+Python compileall: PASS.
+Linux/Python 3.12; Windows HMI not interactively tested.
+Historical profit claims not reproduced.

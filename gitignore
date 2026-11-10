@@ -1,0 +1,32 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---- App runtime data & secrets ----
+# These normally live in %LOCALAPPDATA%\BitunixDayTraderV1, not in the repo.
+# Listed here so they are never committed even if they appear in the folder.
+settings.json
+*.sqlite3
+*.db
+*.dpapi
+credentials*
+.env
+.env.*
+
+# ---- Backtest / forecast outputs & logs ----
+backtests/
+kronos_forecasts/
+kronos_cache*.sqlite3
+*.log
+log.txt
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

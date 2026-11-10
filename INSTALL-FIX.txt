@@ -1,0 +1,10 @@
+v1.8.3 Windows installer test-cleanup fix
+
+1. Close the failed installer window.
+2. Copy test_kronos_filter.py into your existing bitunix-swing-copy-v1.8.3 folder, alongside 00-install.cmd. Replace the existing file. Do not put it in the tests subfolder.
+3. Run 00-install.cmd again.
+4. After Installation complete, run 42-backtest-last-40-days.cmd (or download history first if needed).
+
+Only the test file changes. No trading settings, strategy code or databases are changed. Tests remain enabled.
+All filter connections are closed before temporary-directory removal, including after assertion failures.
+Verified: original nine errors reproduced using strict simulated Windows file-lock checks; patched ten tests passed those checks. Native Windows was not available for verification.

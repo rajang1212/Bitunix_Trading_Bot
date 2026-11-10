@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "version": "1.6.0",
+  "status": "ACTIVE",
+  "bias": "BULLISH",
+  "score": 31.0,
+  "impact": 64.0,
+  "confidence": 81.0,
+  "horizon": "BOTH",
+  "critical_risk": "NONE",
+  "last_update": "2026-09-22T10:30:00+00:00",
+  "assets": [
+    {"symbol": "SOL", "score": 72, "bias": "BULLISH", "impact": 78, "confidence": 86, "horizon": "DAY", "event": "LISTING"},
+    {"symbol": "LINK", "score": 58, "bias": "BULLISH", "impact": 61, "confidence": 79, "horizon": "SWING", "event": "ADOPTION"},
+    {"symbol": "XRP", "score": -41, "bias": "BEARISH", "impact": 55, "confidence": 77, "horizon": "SWING", "event": "ENFORCEMENT"}
+  ],
+  "critical_blocks": [],
+  "sources": {
+    "GDELT": "CONNECTED (34)",
+    "SEC": "CONNECTED (20)",
+    "CFTC": "CONNECTED (20)",
+    "CFTC_ENF": "CONNECTED (20)",
+    "COINDESK": "CONNECTED (42)",
+    "BINANCE": "CONNECTED (18)"
+  },
+  "events": []
+}

@@ -1,5 +1,7 @@
-# Bitunix_Trading_Bot
-Automatic trading bot for trading cryptos on Bitunix platform
+# Updated release: v1.8.3
+
+Read UPGRADE-v1.8.3.md first. The v1.8.2 notes below are retained as historical documentation.
+
 # Bitunix Swing + Copy Trader v1.8.2
 
 v1.8.2 is a SWING safety/stability release built on v1.8.1. It keeps the Solana COPY setup and HMI/account work, but changes SWING behavior after the October loss review.
